@@ -1,0 +1,26 @@
+title: 李婷的学术主页
+description: 江西财经大学产业经济学博士研究生李婷的中文学术个人主页
+url: "https://Skytingli.github.io"
+baseurl: ""
+lang: zh-CN
+timezone: Asia/Shanghai
+
+author:
+  name: 李婷
+  role: 产业经济学博士研究生
+  affiliation: 江西财经大学数字经济学院
+  email: liting4891@163.com
+  github: Skytingli
+  avatar: /assets/images/profile.jpg
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+include:
+  - _pages
