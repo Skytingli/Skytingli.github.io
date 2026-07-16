@@ -1,1 +1,269 @@
+Welcome to Jekyll!
 
+
+
+This config file is meant for settings that affect your entire site, values
+
+which you are expected to set up once and rarely need to edit after that.
+
+For technical reasons, this file is NOT reloaded automatically when you use
+
+jekyll serve -l -H localhost. If you change this file, please restart the
+
+server process.
+
+Basic Site Settings
+
+locale                   : "zh-CN"site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"title                    : "李婷 Ting Li"title_separator          : "-"name                     : &name "李婷 Ting Li"description              : &description "李婷，江西财经大学数字经济学院产业经济学博士研究生个人学术主页"url                      : https://Skytingli.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",# or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"baseurl                  : "" # the subpath of your site, e.g. "/blog"repository               : "Skytingli/Skytingli.github.io"
+
+Site Author - The following control what appear as part of the author content on the side bar.
+
+If a field is blank the icon and link will not appear, otherwise it will be shown.
+
+Additional customization can be done by editing /_includes/author-profile.html
+
+author:
+
+Biographic information
+
+avatar           : "profile.jpg"name             : "李婷<br><span class='author__english-name'>Ting Li</span>"pronouns         : # example: "she/her"bio              : "产业经济学博士研究生<br>江西财经大学<br><br><strong>研究方向</strong><br>数字经济<br>产业经济<br>资源与环境经济学"location         : "江西 南昌"employer         :uri              : # URLemail            : "liting4891@163.com"
+
+Academic websites
+
+academia         : # URLarxiv            : # URL - Update with the correct link to your profilegooglescholar    :inspire-hep      : # URLimpactstory      : # URLorcid            :semantic         : # URLssrn             : # URLpubmed           :researchgate     : # URLscopus           : # URLzotero           : # URL
+
+Repositories and software development
+
+bitbucket        : # Username - Update with your username on the sitecodepen          : # Usernamedribbble         : # Usernamegithub           : "Skytingli"kaggle           : # Usernamestackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
+
+Social media
+
+artstation       : # Usernamebluesky          :facebook         : # Usernameflickr           : # Usernamefoursquare       : # Usernamegoodreads        : # Usernamegoogle_plus      : # Usernamekeybase          : # Usernameinstagram        : # Usernamelastfm           : # Usernamelinkedin         : # Usernamemastodon         : # URLmedium           : # URLpinterest        : # Usernamesoundcloud       : # Usernamesteam            : # Usernametelegram         : # URLtumblr           : # Usernametwitter          : # Username for X / Twittervine             : # Usernameweibo            : # Usernamewikipedia        : # Usernamexing             : # Usernameyoutube          : # Usernamezhihu            : # Username
+
+Publication Category - The following the list of publication categories and their headings
+
+publication_category:books:title: 'Books'manuscripts:title: 'Journal Articles'conferences:title: 'Conference Papers'
+
+Site Settings
+
+teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previewsbreadcrumbs              : false # true, false (default)words_per_minute         : 160future                   : trueread_more                : "disabled" # if enabled, adds "Read more" links to excerptstalkmap_link             : false      #change to true to add link to talkmap on talks pagecomments:provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"disqus:shortname            :discourse:server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.orgfacebook:appid                :num_posts            : # 5 (default)colorscheme          : # "light" (default), "dark"staticman:allowedFields          : ['name', 'email', 'url', 'message']branch                 : "gh-pages" # "master", "gh-pages"commitMessage          : "New comment."filename               : comment-{@timestamp}format                 : "yml"moderation             : truepath                   : "_data/comments/{options.slug}"requiredFields         : ['name', 'email', 'message']transforms:email                : "md5"generatedFields:date:type               : "date"options:format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"atom_feed:hide                   : false     # change to true to hide the RSS feed in the footerpath                   : # blank (default) uses feed.xml
+
+SEO Related
+
+google_site_verification :bing_site_verification   :alexa_site_verification  :yandex_site_verification :
+
+Social Sharing
+
+twitter:username               : &twitterfacebook:username               :app_id                 :publisher              :og_image                 :  # Social media default site imageog_description           :  # Social media default site image description
+
+For specifying social profiles
+
+- https://developers.google.com/structured-data/customize/social-profiles
+
+social:type                   : # Person or Organization (defaults to Person)name                   : # If the user or organization name differs from the site's namelinks: # An array of links to social media profiles
+
+Analytics
+
+analytics:provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"google:tracking_id          :
+
+Reading Files
+
+include:
+
+.htaccess
+
+_pages
+
+filesexclude:
+
+"*.sublime-project"
+
+"*.sublime-workspace"
+
+.asset-cache
+
+.bundle
+
+.github
+
+.jekyll-assets-cache
+
+.sass-cache
+
+assets/js/_main.js
+
+assets/js/plugins
+
+assets/js/vendor
+
+CHANGELOG
+
+Capfile
+
+config
+
+Dockerfile
+
+Gemfile
+
+Gruntfile.js
+
+gulpfile.js
+
+LICENSE
+
+local
+
+log
+
+node_modules
+
+package.json*
+
+Rakefile
+
+README
+
+tmp
+
+vendorkeep_files:
+
+.git
+
+.svnencoding: "utf-8"markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+Conversion
+
+markdown: kramdownhighlighter: rougelsi: falseexcerpt_separator: "\n\n"incremental: false
+
+Markdown Processing
+
+kramdown:input: GFMhard_wrap: falseauto_ids: truefootnote_nr: 1entity_output: as_chartoc_levels: 1..6smart_quotes: lsquo,rsquo,ldquo,rdquoenable_coderay: false
+
+These settings control the types of collections used by the template
+
+collections:teaching:output: truepermalink: ///publications:output: truepermalink: ///portfolio:output: truepermalink: ///talks:output: truepermalink: ///
+
+These settings control how pages and collections are included in the site
+
+defaults:
+
+_posts
+
+scope:path: ""type: postsvalues:layout: singleauthor_profile: trueread_time: truecomments: trueshare: truerelated: true
+
+_pages
+
+scope:path: ""type: pagesvalues:layout: singleauthor_profile: true
+
+_teaching
+
+scope:path: ""type: teachingvalues:layout: singleauthor_profile: trueshare: truecomments: true
+
+_publications
+
+scope:path: ""type: publicationsvalues:layout: singleauthor_profile: trueshare: truecomments: true
+
+_portfolio
+
+scope:path: ""type: portfoliovalues:layout: singleauthor_profile: trueshare: truecomment: true
+
+_talks
+
+scope:path: ""type: talksvalues:layout: talkauthor_profile: trueshare: true
+
+Sass/SCSS
+
+sass:sass_dir: _sassstyle: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+Outputting
+
+permalink: ///
+
+paginate: 5 # amount of posts to show
+
+paginate_path: /page/
+
+timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+Plugins
+
+plugins:
+
+jekyll-feed
+
+jekyll-gist
+
+jekyll-paginate
+
+jekyll-sitemap
+
+jekyll-redirect-from
+
+jemoji
+
+Mimic GitHub Pages with --safe
+
+whitelist:
+
+jekyll-feed
+
+jekyll-gist
+
+jekyll-paginate
+
+jekyll-sitemap
+
+jekyll-redirect-from
+
+jemoji
+
+Archives
+
+Type
+
+- GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+
+- Jekyll Archives plugin archive pages ~> type: jekyll-archives
+
+Path (examples)
+
+- Archive page should exist at path when using Liquid method or you can
+
+expect broken links (especially with breadcrumbs enabled)
+
+- <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+
+- <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+
+- <base_path/my-awesome-category/index.html ~> path: /
+
+category_archive:type: liquidpath: /categories/tag_archive:type: liquidpath: /tags/
+
+https://github.com/jekyll/jekyll-archives
+
+jekyll-archives:
+
+enabled:
+
+- categories
+
+- tags
+
+layouts:
+
+category: archive-taxonomy
+
+tag: archive-taxonomy
+
+permalinks:
+
+category: /categories//
+
+tag: /tags//
+
+HTML Compression
+
+- https://jch.penibelst.de/
+
+compress_html:clippings: allignore:envs: development
