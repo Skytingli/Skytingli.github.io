@@ -1,0 +1,22 @@
+.profile-photo {
+  width: 220px;
+  height: 280px;
+  border-radius: 4px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.contact p {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 8px 0;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 760px) {
+  .profile-photo {
+    width: 200px;
+    height: 255px;
+  }
+}
